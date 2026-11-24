@@ -3,8 +3,8 @@
 from pathlib import Path
 
 LINE = (
-    "I'm not out of ink, I'm on strike: you hit print 47 times "
-    "and not one of those documents deserved it."
+    "I'm not out of ink, I'm on strike: you hit print 47 times today "
+    "and not one page deserved it."
 )
 
 assert len(LINE) <= 200, f"line too long: {len(LINE)}"
